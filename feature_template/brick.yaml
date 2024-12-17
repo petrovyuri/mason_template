@@ -1,0 +1,12 @@
+name: feature_template
+description: A new brick created with the Mason CLI.
+version: 0.1.0+1
+environment:
+  mason: ">=0.1.0-dev.38 <0.1.0"
+
+vars:
+  feature_name:
+    type: string
+    description: Feature name
+    default: Feature
+    prompt: Set Feature Name
